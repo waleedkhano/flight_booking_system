@@ -1,0 +1,15 @@
+{
+  "name": "flight-booking-plateform",
+  "version": "1.0.0",
+  "description": "Micro services for handling CRUD operations",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^2.2.1",
+    "express": "^5.1.0"
+  }
+}
