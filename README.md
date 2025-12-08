@@ -31,5 +31,6 @@
 ## DB Desgin
     - Airplane Table
     - Flight
-    - Airport
-    - City
+    - Airport -> id, name, address, city_id, created_at, updated_at
+    - City -> id, name, created_at, updated_at
+
