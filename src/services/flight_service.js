@@ -27,9 +27,14 @@ class FlightService {
     }
   }
 
-  async getFlightData(id) {
+  async getAllFlightData(data) {
     try {
-    } catch (error) {}
+      const flights = await this.flightRepository.getAllFlight(data);
+      return flights;
+    } catch (error) {
+      console.error("Something went wrong in the service layer");
+      throw { error };
+    }
   }
 }
 
