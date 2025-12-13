@@ -29,8 +29,8 @@
 
 
 ## DB Desgin
-    - Airplane Table
-    - Flight
+    - Airplane Table -> id, modelNumber, capacity, createdAt, updatedAt
+    - Flight -> id, flightNumber, airplaneId, departureAirportId, arrivalAirportId, arrivalTime, departureTime, price, boardingGate, totalSeats createdAt, updatedAt
     - Airport -> id, name, address, city_id, created_at, updated_at
     - City -> id, name, created_at, updated_at
 
