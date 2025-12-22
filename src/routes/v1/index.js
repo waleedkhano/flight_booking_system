@@ -20,6 +20,11 @@ router.post(
   FlightController.create
 );
 router.get("/flights", FlightController.getAll);
+<<<<<<< HEAD
+=======
+router.get("/flights/:id", FlightController.get);
+router.patch("/flights/:id", FlightController.update);
+>>>>>>> my-local-changes
 
 router.post("/airports", AirportController.create);
 
